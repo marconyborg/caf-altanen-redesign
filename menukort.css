@@ -81,11 +81,11 @@ nav a:hover {
 
 .button {
     background-image: url(menu_pdf_button.svg);
-    position: absolute;
-    top: 30wv;
-    left: 50wv;
-    height: 20wv;
-    width: 60wv;
+
+}
+
+.button:hover {
+    color: #F33222;
 }
 
 /*FOOTER*/
