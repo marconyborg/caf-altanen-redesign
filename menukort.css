@@ -208,7 +208,7 @@ footer {
         margin: 80px;
     }
 
-    #menukort_section. .section_wrapper {
+    #menukort_section .section_wrapper {
         display: grid;
         grid-gap: 80px;
         grid-template-columns: 1fr 1fr;
