@@ -7,6 +7,18 @@ body {
 
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Mobile site*/
 
 body {
