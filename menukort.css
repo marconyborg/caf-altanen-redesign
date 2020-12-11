@@ -72,6 +72,12 @@ nav a:hover {
 }
 
 /*NAVIGATION SLUT*/
+/*section*/
+
+#menukort_section.section_wrapper {
+    margin: 20px;
+    margin-bottom: 50px;
+}
 
 /*FOOTER*/
 
@@ -198,7 +204,7 @@ footer {
     }
 
 
-    .section_wrapper {
+    #menukort_section. .section_wrapper {
         display: grid;
         grid-gap: 80px;
         grid-template-columns: 1fr 1fr;
