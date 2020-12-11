@@ -195,6 +195,14 @@ footer {
         grid-row-start: 2;
     }
 
+/*
+    .section_wrapper {
+        display: grid;
+        grid-gap: 80px;
+        grid-template-columns: 1fr 1fr;
+    }
+*/
+
     /*FOOTER*/
 
     footer {
