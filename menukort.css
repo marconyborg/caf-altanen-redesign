@@ -74,7 +74,7 @@ nav a:hover {
 /*NAVIGATION SLUT*/
 /*section*/
 
-#menukort_section.section_wrapper {
+#menukort_section .section_wrapper {
     margin: 20px;
     margin-bottom: 50px;
 }
@@ -102,12 +102,12 @@ footer {
 }
 
 #adresse h3 {
-    color: white;
+    color: #F0F0EF;
     font-size: 15px;
 }
 
 .text {
-    color: white;
+    color: #F0F0EF;
     font-size: 10px;
 }
 
@@ -117,7 +117,7 @@ footer {
 
 #kontaktinfo h3 {
 
-    color: white;
+    color: #F0F0EF;
     font-size: 15px;
 }
 
@@ -180,7 +180,7 @@ footer {
     }
 
     nav a {
-        color: white;
+        color: #F0F0EF;
     }
 
     #galleri {
@@ -258,7 +258,7 @@ footer {
 
     #aabningstider h3 {
         font-size: 20px;
-        color: white;
+        color: #F0F0EF;
     }
 
     /*FOOTER SLUT*/
