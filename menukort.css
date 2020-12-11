@@ -48,6 +48,7 @@ header {
 }
 
 nav a {
+    font-family: 'Roboto', sans-serif;
     display: block;
     padding: 20px;
     text-align: center;
@@ -80,9 +81,9 @@ footer {
     grid-template-columns: repeat(3 auto);
     grid-template-rows: repeat(4 10px);
     grid-gap: 10px;
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
+    /*    position: absolute;*/
+    /*    bottom: 0;*/
+    /*    width: 100%;*/
 }
 
 #adresse {
