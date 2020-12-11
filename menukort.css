@@ -56,10 +56,11 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: none;
+    /*   #181F32*/
     font-size: 24px;
 }
 
-/*#181F32/*
+
 nav a:hover {
     color: #F33222;
 }
