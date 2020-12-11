@@ -176,6 +176,87 @@ footer {
         grid-row-start: 2;
     }
 
+    /*SECTION GALLERI*/
+
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    #galleri_1 {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 1fr;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    #billede1 {
+        grid-column-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede2 {
+        grid-column-start: 2;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede3 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede4 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #galleri_2 {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 1fr;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #billede5 {
+        grid-column-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede6 {
+        grid-column-start: 2;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede7 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede8 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    /*SECTION GALLERI SLUT*/
+
     #omos {
         grid-column-start: 6;
         grid-row-start: 2;
