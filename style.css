@@ -80,9 +80,6 @@ footer {
     grid-template-columns: repeat(3 auto);
     grid-template-rows: repeat(4 10px);
     grid-gap: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 #adresse {
@@ -138,6 +135,103 @@ footer {
 }
 
 /*FOOTER SLUT*/
+
+/*ÅBNINGSTIDER PÅ FORSIDE*/
+
+#aabningstiderforside #overskriftaabningstider {
+    text-align: center;
+    color: #181F32;
+}
+
+#aabningstiderforside .text {
+    text-align: center;
+    color: #181F32;
+}
+
+/*ÅBNINGSTIDER PÅ FORSIDE SLUT*/
+
+/*LINK TIL INSTAGRAM*/
+
+#linktilinsta {
+    text-align: center;
+}
+
+#linket {
+    align-content: center;
+    text-decoration: none;
+    color: #181F32;
+    font-size: 15px;
+}
+
+#række1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+}
+
+#billede1 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#billede2 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#billede3 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#billede4 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#række2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+}
+
+#billede5 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#billede6 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#billede7 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#billede8 {
+    width: 150px;
+    height: 150px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
 
 /*Desktop*/
 
@@ -239,5 +333,100 @@ footer {
 
     /*FOOTER SLUT*/
 
+    /*BAGGRUNDSVIDEO/BILLEDE*/
 
+    #baggrundsvideo img {
+        width: 100%;
+    }
+
+    /*BAGGRUNDSVIDEO/BILLEDE SLUT*/
+
+    /*ÅBNINGSTIDER PÅ FORSIDE*/
+
+    #aabningstiderforside #overskriftaabningstider {
+        font-size: 30px;
+    }
+
+    #aabningstiderforside .text {
+        font-size: 20px;
+    }
+
+    /*ÅBNINGSTIDER PÅ FORSIDE SLUT*/
+
+    /*LINK TIL INSTAGRAM*/
+
+    #række1 {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 1fr;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    #billede1 {
+        grid-column-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede2 {
+        grid-column-start: 2;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede3 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede4 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #række2 {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 1fr;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #billede5 {
+        grid-column-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede6 {
+        grid-column-start: 2;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede7 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #billede8 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        width: 200px;
+        height: 200px;
+    }
+
+    #linket {
+        font-size: 24px;
+    }
 }
