@@ -55,8 +55,8 @@ nav a {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    color: none;
-    /*   #181F32*/
+    color: #181F32;
+
     font-size: 24px;
 }
 
