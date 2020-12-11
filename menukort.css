@@ -4,6 +4,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Mobile site*/
@@ -48,7 +49,7 @@ header {
 }
 
 nav a {
-    font-family: 'Roboto', sans-serif;
+
     display: block;
     padding: 20px;
     text-align: center;
@@ -106,6 +107,7 @@ footer {
 }
 
 #kontaktinfo h3 {
+
     color: white;
     font-size: 15px;
 }
