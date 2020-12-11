@@ -55,10 +55,11 @@ nav a {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    color: #181F32;
+    color: none;
     font-size: 24px;
 }
 
+/*#181F32/*
 nav a:hover {
     color: #F33222;
 }
@@ -195,14 +196,14 @@ footer {
         grid-row-start: 2;
     }
 
-/*
+
     .section_wrapper {
         display: grid;
         grid-gap: 80px;
         grid-template-columns: 1fr 1fr;
     }
-*/
 
+    *
     /*FOOTER*/
 
     footer {
