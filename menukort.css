@@ -85,6 +85,9 @@ main {
     max-width: 800px;
     margin: 0 auto;
     align-content: center;
+     display: block;
+    margin-bottom: .6rem;
+
 }
 
 h1 {
@@ -116,7 +119,7 @@ p {
 
 
 
-  #menukort_section button {
+button {
     padding: 1rem 2.09rem;
     margin-top: 1.1rem;
     border: 0;
