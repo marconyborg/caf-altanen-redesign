@@ -139,7 +139,9 @@ button:hover {
     background-color: #F33222;
 }
 .button{
-align-items: center;
+ display: flex;
+  align-items: center;
+  justify-content: center;
 }
   #menukort_section img{
         width: 50%;
