@@ -131,9 +131,8 @@ button:hover {
     background-color: #F33222;
 }
   #menukort_section img{
-        width: 25vw;
-         padding: 1.5rem;
-      align-content: center;
+        width: 33vw;
+    align-content: center;
     }
 /*FOOTER*/
 
@@ -279,10 +278,13 @@ footer {
     }
 
   #menukort_section .section_wrapper{
+/*
         display: grid;
         grid-template-columns: 1fr 1fr;
        grid-gap: 2rem;
+
         align-items: start;
+      */
         padding: 1.5rem;
         border-radius: 8px;
     }
