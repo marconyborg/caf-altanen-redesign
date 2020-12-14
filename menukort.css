@@ -289,12 +289,16 @@ footer {
     }
 
   #menukort_section .section_wrapper {
-
+ display: grid;
+        grid-gap: 80px;
+        grid-template-columns: 1fr 1fr;
+/*
         display: grid;
         grid-template-columns: 1fr 1fr;
       margin:0 auto;
        grid-gap: 3rem;
   padding: 1.5rem;
+*/
 
 
 
