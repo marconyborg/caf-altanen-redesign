@@ -73,15 +73,39 @@ nav a:hover {
 
 /*NAVIGATION SLUT*/
 /*section*/
+main {
+    padding: 2rem;
+}
 
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+     color: #E0DBD8;
+}
+
+h2 {
+    text-align: center;
+     color: #E0DBD8;
+}
+
+p {
+    text-align: center;
+     color: #E0DBD8;
+}
+/*
 #menukort_section .section_wrapper {
     margin: 20px;
     margin-bottom: 50px;
 }
+*/
 
 button {
-    padding: .21rem 5rem;
-    margin-top: .1rem;
+      padding: 1.20rem 5rem;
+    margin-top: 5.1rem;
     border: 0;
     font-weight: 600;
     font-size: 1rem;
@@ -182,7 +206,8 @@ footer {
     }
 
     header {
-        background-color: #181F32;
+     
+        background-color: #E0DBD8;
         display: grid;
         grid-template-columns: 150px 1fr;
     }
@@ -194,7 +219,7 @@ footer {
     }
 
     nav a {
-        color: #F0F0EF;
+        color: #181F32;
     }
 
     #galleri {
