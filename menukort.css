@@ -79,14 +79,18 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-.button {
-    background-image: url(menu_pdf_button.svg);
- background-size: cover;
-
+button {
+    padding: .20rem 2rem;
+    margin-top: .1rem;
+    border: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #181F32;
+    color: white;
 }
 
-.button:hover {
-    color: #F33222;
+button:hover {
+    background-color: #F33222;
 }
 
 /*FOOTER*/
