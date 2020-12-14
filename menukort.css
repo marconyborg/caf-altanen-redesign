@@ -83,18 +83,26 @@ section {
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-     color: #E0DBD8;
+     color: #181F32;
 }
 
 h2 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-     color: #E0DBD8;
+     color: #181F32;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+     color: #181F32;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-     color: #E0DBD8;
+     color: #181F32;
 }
 /*
 #menukort_section .section_wrapper {
