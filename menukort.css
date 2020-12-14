@@ -86,12 +86,12 @@ main {
       margin: auto;
      max-width: 800px;
     margin: 0 auto;
-/*
+
 
     align-content: center;
      display: block;
     margin-bottom: .6rem;
-*/
+
 
 }
 
@@ -158,9 +158,9 @@ footer {
     grid-template-columns: repeat(3 auto);
     grid-template-rows: repeat(4 10px);
     grid-gap: 10px;
-    /*    position: absolute;*/
-    /*    bottom: 0;*/
-    /*    width: 100%;*/
+       position: absolute;
+    bottom: 0;
+     width: 100%;
 }
 
 #adresse {
