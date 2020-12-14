@@ -112,11 +112,7 @@ p {
      font-weight: 300;
      color: #181F32;
 }
-/*
-#menukort_section .section_wrapper {
-    margin: 20px;
-    margin-bottom: 50px;
-}
+
 */
 
 button {
@@ -132,7 +128,10 @@ button {
 button:hover {
     background-color: #F33222;
 }
-
+  #menukort_section img{
+        width: 25vw;
+         padding: 1.5rem;
+    }
 /*FOOTER*/
 
 #aabningstider {
@@ -223,7 +222,7 @@ footer {
 
     header {
      
-        background-color: #E0DBD8;
+        background-color: none;
         display: grid;
         grid-template-columns: 150px 1fr;
     }
@@ -284,9 +283,7 @@ footer {
         padding: 1.5rem;
         border-radius: 8px;
     }
-    #menukort_section img{
-        width: 25vw;
-    }
+
 /*
        .section_wrapper {
         max-width: 100%;
