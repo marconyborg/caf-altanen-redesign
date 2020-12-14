@@ -123,7 +123,7 @@ p {
 
 
 
-button {
+.button {
     padding: 1rem 2.09rem;
     margin-top: 1.1rem;
     border: 0;
@@ -131,15 +131,15 @@ button {
     font-size: 1rem;
     background: #181F32;
     color: #E0DBD8;
-    align-content: center;
+
 }
 
-button:hover {
+.button:hover {
     background-color: #F33222;
 }
   #menukort_section img{
-        width: 52%;
-    align-content: center;
+        width: 50%;
+
     }
 /*FOOTER*/
 
@@ -285,14 +285,14 @@ footer {
     }
 
   #menukort_section {
-/*
+
         display: grid;
         grid-template-columns: 1fr 1fr;
        grid-gap: 2rem;
   padding: 1.5rem;
         border-radius: 8px;
-        align-items: start;
-      */
+/*        align-items: start;*/
+
 
     }
 /*  .section_wrapper*/
