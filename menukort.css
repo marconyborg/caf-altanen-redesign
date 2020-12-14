@@ -288,22 +288,22 @@ footer {
         text-align: left;
     }
 
-  #menukort_section {
+  #menukort_section .section_wrapper {
 
         display: grid;
         grid-template-columns: 1fr 1fr;
        grid-gap: 2rem;
   padding: 1.5rem;
         border-radius: 8px;
-/*        align-items: start;*/
+
 
 
     }
-/*  .section_wrapper*/
 
 
 
-    *
+
+
     /*FOOTER*/
 
     footer {
