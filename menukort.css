@@ -224,7 +224,7 @@ footer {
 
     header {
      
-        background-color: none;
+        background-color: #F0F0EF;
         display: grid;
         grid-template-columns: 150px 1fr;
     }
@@ -285,7 +285,7 @@ footer {
         padding: 1.5rem;
         border-radius: 8px;
     }
-
+  
 /*
        .section_wrapper {
         max-width: 100%;
