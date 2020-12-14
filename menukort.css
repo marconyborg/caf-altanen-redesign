@@ -19,7 +19,7 @@ body {
 /*NAVIGATION*/
 
 header {
-    background-color: #F0F0EF;
+    background-color: none;
 
 
 }
@@ -131,6 +131,7 @@ button:hover {
   #menukort_section img{
         width: 25vw;
          padding: 1.5rem;
+      align-content: center;
     }
 /*FOOTER*/
 
