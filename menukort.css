@@ -124,6 +124,7 @@ button {
     font-size: 1rem;
     background: #181F32;
     color: #E0DBD8;
+    align-content: center;
 }
 
 button:hover {
