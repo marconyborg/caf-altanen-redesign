@@ -82,11 +82,15 @@ main {
 }
 
 #menukort_section {
+     align-content: center;
+      margin: auto;
+/*
     max-width: 800px;
     margin: 0 auto;
     align-content: center;
      display: block;
     margin-bottom: .6rem;
+*/
 
 }
 
@@ -289,8 +293,7 @@ footer {
         border-radius: 8px;
         align-items: start;
       */
-      align-content: center;
-      margin: auto;
+
     }
 /*  .section_wrapper*/
 
