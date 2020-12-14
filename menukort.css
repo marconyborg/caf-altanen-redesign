@@ -284,8 +284,8 @@ footer {
         padding: 1.5rem;
         border-radius: 8px;
     }
-    .section_wrapper img{
-        width 25%;
+    #menukort_section img{
+        width: 25vw;
     }
 /*
        .section_wrapper {
