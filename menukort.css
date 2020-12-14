@@ -280,24 +280,20 @@ footer {
         text-align: left;
     }
 
-  #menukort_section .section_wrapper{
+  #menukort_section {
 /*
         display: grid;
         grid-template-columns: 1fr 1fr;
        grid-gap: 2rem;
-
+  padding: 1.5rem;
+        border-radius: 8px;
         align-items: start;
       */
-        padding: 1.5rem;
-        border-radius: 8px;
+      align-content: center;
+      margin: auto;
     }
-  
-/*
-       .section_wrapper {
-        max-width: 100%;
-        margin: 80px;
-    }
-*/
+/*  .section_wrapper*/
+
 
 
     *
