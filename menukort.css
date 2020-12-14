@@ -60,7 +60,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #181F32;
-
+   font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
 
@@ -84,9 +84,10 @@ main {
 #menukort_section {
      align-content: center;
       margin: auto;
-/*
-    max-width: 800px;
+     max-width: 800px;
     margin: 0 auto;
+/*
+
     align-content: center;
      display: block;
     margin-bottom: .6rem;
@@ -138,11 +139,11 @@ button:hover {
     background-color: #F33222;
 }
 .button{
-align-content: center;
+align-items: center;
 }
   #menukort_section img{
         width: 50%;
-      align-content: center;
+      align-items: center;
 
     }
 /*FOOTER*/
