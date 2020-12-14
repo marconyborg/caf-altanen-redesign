@@ -5,6 +5,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 
+
 }
 
 
@@ -85,23 +86,27 @@ section {
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+        font-weight: 400;
      color: #181F32;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+        font-weight: 300;
      color: #181F32;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+        font-weight: 300;
      color: #181F32;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+     font-weight: 300;
      color: #181F32;
 }
 /*
