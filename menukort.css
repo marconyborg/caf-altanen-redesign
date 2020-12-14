@@ -250,16 +250,39 @@ footer {
         grid-row-start: 2;
     }
 
-    .section_wrapper {
+
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1.25;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    h2 {
+        margin-bottom: .5rem;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    p {
+        text-align: left;
+    }
+
+  #menukort_section .section_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       grid-gap: 2rem;
+        align-items: start;
+        padding: 1.5rem;
+        border-radius: 8px;
+    }
+/*
+       .section_wrapper {
         max-width: 100%;
         margin: 80px;
     }
+*/
 
-    #menukort_section .section_wrapper {
-        display: grid;
-        grid-gap: 80px;
-        grid-template-columns: 1fr 1fr;
-    }
 
     *
     /*FOOTER*/
