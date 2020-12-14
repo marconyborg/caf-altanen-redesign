@@ -278,13 +278,13 @@ footer {
         display: block;
         font-size: 1.1rem;
         border: 0;
-        padding-right: 10rem;
-        padding-top: .1rem;
-        padding-bottom: .1rem;
+        width: 23.8rem;
+        padding: .2rem;
     }
 
     textarea {
-        padding-right: 10rem;
+        width: 23.8rem;
+        padding: .2rem;
     }
 
     /*main/section SLUT*/
