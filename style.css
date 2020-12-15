@@ -77,6 +77,7 @@ h3 {
 
 /*NAVIGATION SLUT*/
 
+
 /*FOOTER*/
 
 #aabningstider {
@@ -246,6 +247,11 @@ footer {
 /*Desktop*/
 
 @media (min-width: 769px) {
+
+    /*SPLASH VIDEO*/
+    #mobilbaggrund {
+        display: none;
+    }
 
 
     /*NAVIGATION*/
@@ -438,5 +444,39 @@ footer {
 
     #linket {
         font-size: 24px;
+    }
+}
+
+/*SPLASH VIDEO RESPONSIVE*/
+
+@media (min-aspect-ratio: 16/9) {
+
+    #mobilbaggrund {
+        display: none;
+    }
+
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+
+    #mobilbaggrund {
+        display: none;
+    }
+
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*SPLASH VIDEO MOBIL*/
+    #videoBG {
+        display: none;
     }
 }
