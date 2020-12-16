@@ -254,6 +254,10 @@ footer {
     }
 
 
+    header {
+        background: none;
+    }
+
     /*NAVIGATION*/
 
     .topbar img {
@@ -266,7 +270,7 @@ footer {
     }
 
     header {
-        background-color: #181F32;
+        background: none;
         display: grid;
         grid-template-columns: 150px 1fr;
     }
@@ -278,7 +282,7 @@ footer {
     }
 
     nav a {
-        color: white;
+        color: #181F32;
     }
 
     #galleri {
