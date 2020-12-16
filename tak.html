@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms demo</title>
+    <title>Tak for din henvendelse</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tak.css">
 </head>
@@ -12,7 +12,19 @@
 <body>
 
     <header>
-        <div>Forms</div>
+        <div class="topbar">
+            <a href="index.html">
+                <img src="logo.svg" alt="logo">
+            </a>
+            <p id="knap">☰</p>
+        </div>
+
+        <nav class="toggle">
+            <a href="galleri.html" id="galleri">Galleri</a>
+            <a href="omos.html" id="omos">Om os</a>
+            <a href="menukort.html" id="menukort">Menukort</a>
+            <a href="kontakt.html" id="kontakt">Kontakt</a>
+        </nav>
     </header>
 
     <main>
@@ -27,7 +39,41 @@
     </main>
 
     <footer>
-        <small>&copy; forms 2020</small>
+        <div id="adresse">
+            <h3>ADRESSE</h3>
+            <p class="text" id="cafe">Café Altan</p>
+            <p class="text" id="kongevej">Gl.Kongevej 19,</p>
+            <p class="text" id="postnr">1610 København</p>
+        </div>
+        <div id="kontaktinfo">
+            <h3>KONTAKT INFO</h3>
+            <p class="text">Tlf: +45 5117 8602</p>
+            <p class="text">Email: skal@ændres.dk</p>
+            <p class="text">CVR: 0000000</p>
+        </div>
+        <div id="aabningstider">
+            <h3>Åbningstider</h3>
+            <p class="text">
+                Mandag | 8-18
+                Tirsdag | 8-18
+                Onsdag | 8-18
+                <br>
+                Torsdag | 8-18
+                Fredag | 8-18
+                <br>
+                Lørdag | 10-17
+                Søndag | 10-17
+
+            </p>
+        </div>
+        <div id="socialemedier">
+            <a href="https://www.instagram.com/cafealtanen/?hl=da" id="instagram" class="center">
+                <img src="instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/CafeAltanen" id="facebook" class="center">
+                <img src="facebook.png" alt="facebook">
+            </a>
+        </div>
     </footer>
 
 </body>
