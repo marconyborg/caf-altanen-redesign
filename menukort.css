@@ -110,7 +110,7 @@ h2 {
 }
 h3 {
     font-family: 'Roboto', sans-serif;
-    text-align: left;
+    text-align: center;
         font-weight: 300;
      color: #181F32;
 }
@@ -286,6 +286,11 @@ footer {
         text-align: left;
         margin-top: 0;
     }
+    h3 {
+
+    text-align: left;
+
+}
 
     p {
         text-align: left;
